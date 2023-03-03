@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/mahes/APIRestAssuredAutomation/APIAutomationFramework"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.637">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateBooking"
+                time="0.411"
+                classname="org.RestfulBooker.Framework.tests.CRUD.IntegrationTest1">
+            </testcase>
+            <testcase
+                name="testUpdateCreatedBooking"
+                time="0.837"
+                classname="org.RestfulBooker.Framework.tests.CRUD.IntegrationTest1">
+            </testcase>
+            <testcase
+                name="testDeleteCreatedBooking"
+                time="0.389"
+                classname="org.RestfulBooker.Framework.tests.CRUD.IntegrationTest1">
+            </testcase>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/mahes/APIRestAssuredAutomation/APIAutomationFramework">
+        <classes>
+            <class name="org.RestfulBooker.Framework.tests.CRUD.CreateBooking">
+                <methods>
+                    <include name="testCreateBooking"/>
+                </methods>
+            </class>
+            <class name="org.RestfulBooker.Framework.tests.CRUD.IntegrationTest1">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testUpdateCreatedBooking"/>
+                    <include name="testDeleteCreatedBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
